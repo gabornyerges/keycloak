@@ -59,7 +59,7 @@ export const UserGroups = ({ user }: UserGroupsProps) => {
       max: max!,
     };
 
-    const searchParam = search || "";
+    const searchParam = search || " ";
     if (searchParam) {
       params.search = searchParam;
     }
